@@ -1,0 +1,136 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif, Times, serif, sans-serif;
+}
+
+#header {
+    background-color: #1100F5;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;}
+
+.header.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;}
+
+.logo h1 {
+    font-size: 26px;
+    margin: 0;}
+
+.navList {
+    display: flex;
+    list-style: none;
+}
+.navLink {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navLink:hover {
+    color: #59e518;}
+
+#homeSection p {
+    font-size: 24px;
+    font-weight: bold;
+}
+#homeSection {
+    background: linear-gradient(45deg, #ff0066, #6600ff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.contactItems {
+    width: 100%;
+    max-width: 600px;
+}
+.contact.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contactinfo form,
+.contactinfo p {
+    text-align: center;
+    margin-top: 10px;
+}
+#contactMe {
+    background: linear-gradient(135deg, #ff0066, #6600ff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactinfo input[type="text"],
+.contactinfo input[type="email"],
+.contactinfo input[type="text"],
+.contactinfo textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;}
+
+@media (max-width: 768px) {
+    .navList {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navLink {
+        margin: 10px 0;}
+
+    .logo h1 {
+        font-size: 20px;}
+}
+
+#footer {
+    background-color: #D4E1FA;
+    color: #000000;
+    padding: 5px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;}
+.footer.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.logo h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.logo p {
+    font-size: 12px;
+    margin-bottom: 22px;}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;}
+
+@media (max-width: 768px) {
+    .logo h3 {
+        font-size: 12px;}
+    .logo p {
+        font-size: 10px;}
+
+    h2 {
+        font-size: 18px;}
+}

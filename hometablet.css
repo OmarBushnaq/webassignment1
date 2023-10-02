@@ -1,0 +1,85 @@
+body, h1, h2, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif, Times, serif, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#header {
+    text-align: center;
+    background-color: #1100F5;
+    color: #000000;
+    padding: 20px 0;
+}
+.header.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;}
+
+.logo h1 {
+    font-size: 26px;
+    margin: 0;}
+
+.navList {
+    display: flex;
+    list-style: none;}
+.navLink {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;}
+.navLink:hover {
+    color: #59e518;
+}
+
+#homeSection {
+    background: linear-gradient(#ff0066, #6600ff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+#homeSection p {
+    font-size: 24px;
+    font-weight: bold;}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #header {
+        padding: 15px 0;}
+
+    .logo h1 {
+        font-size: 24px;}
+
+    .navList {
+        flex-direction: row;
+        justify-content: center;}
+    .navLink {
+        margin: 0;
+    }
+
+    #homeSection {
+        padding: 20px;}
+    #homeSection p {
+        font-size: 20px;}
+
+    #footer {
+        padding: 5px 0;}
+
+    .logo h3 {
+        font-size: 18px;}
+    .logo p {
+        font-size: 12px;
+        margin-bottom: 15px;}
+    h2 {
+        font-size: 18px;
+    }
+}
